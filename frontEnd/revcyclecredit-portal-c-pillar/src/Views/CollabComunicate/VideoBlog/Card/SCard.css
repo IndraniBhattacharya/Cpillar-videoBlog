@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.Scard {
+  /* display: grid;
+  grid-template-columns:250px ;
+  grid-template-rows: 100px 100px 30px;
+  grid-template-areas: "title" "image" "stat"; */
+ /* border-radius: 18px; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(196, 87, 68);
+  color: rgb(15, 40, 180);
+  background: #eaebac6b;
+ /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);*/
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 15px;
+  width: 230px;
+  height: auto;
+}
+
+
+
+.ScardTitle {
+  grid-area: title;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding-left: 50px;
+}
+
+
+.ScardStats {
+  grid-area: stats;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  padding-left: 100px;
+  font-size: 12px;
+  overflow: hidden;
+  text-align: left;
+  /* background: rgb(255, 7, 110); */
+  background: white;
+}
+
+.ScardText {
+  font-family: Verdana, Geneva, sans-serif;
+  grid-area: text;
+  margin: 10px;
+  padding-left: 500px;
+  text-align: center;
+}
+
+
+.cardText p {
+  color: blue;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.cardText h2 {
+  color: rgb(68, 114, 196);
+  font-size: 8px;
+  margin-top: 0px;
+  text-shadow: 25px 20px 15px rgba(189, 189, 189);
+  padding-left: 50px;
+}
+
+.cardText image {
+  width: 5px;
+}

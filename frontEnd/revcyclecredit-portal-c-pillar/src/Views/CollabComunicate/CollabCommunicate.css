@@ -1,0 +1,9 @@
+.CardBody {
+    /* width: 100%; */
+    display: inline-flex;
+    width: fit-content;
+    /* background-color: blue; */
+  }
+  .MainBody {
+    margin-left: 30px;
+  }

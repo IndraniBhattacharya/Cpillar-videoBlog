@@ -1,0 +1,177 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.card {
+  display: grid;
+  grid-template-columns: 190px;
+  grid-template-rows: 190px 90px 160px;
+  grid-template-areas: "text" "title" "stats";
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(68, 114, 196);
+  color: rgb(68, 114, 196);
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.cardTitle {
+  grid-area: title;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+.cardImage {
+  grid-area: image;
+  background: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.cardStats {
+  grid-area: stats;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 15px;
+  font-size: 12px;
+  overflow: hidden;
+
+  text-align: left;
+  /* background: rgb(255, 7, 110); */
+  background: white;
+}
+
+.cardText {
+  font-family: Verdana, Geneva, sans-serif;
+  grid-area: text;
+  margin: 10px;
+}
+
+.cardText .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+
+.cardText p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cardText h2 {
+  color: rgb(68, 114, 196);
+  font-size: 160px;
+  margin-top: 0px;
+  text-shadow: 25px 20px 15px rgba(189, 189, 189);
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card2 {
+  display: grid;
+  grid-template-columns: 190px;
+  grid-template-rows: 190px 90px 160px;
+  grid-template-areas: "text" "title" "stats";
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(112, 48, 160);
+  color: rgb(112, 48, 160);
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+.cardText2 {
+  font-family: Verdana, Geneva, sans-serif;
+  grid-area: text;
+  margin: 10px;
+}
+.cardText2 .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+.cardText2 p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.cardText2 h2 {
+  color: rgb(112, 48, 160);
+  font-size: 160px;
+  margin-top: 0px;
+  text-shadow: 25px 20px 15px rgba(189, 189, 189);
+}
+.card2:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+@media screen and (min-width: 1700px) {
+  .card {
+    grid-template-columns: 230px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .card2 {
+    grid-template-columns: 230px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 1776px) {
+  .card {
+    grid-template-columns: 245px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .card2 {
+    grid-template-columns: 245px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .card {
+    grid-template-columns: 260px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .card2 {
+    grid-template-columns: 260px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .card {
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .card2 {
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  .card {
+    grid-template-columns: 360px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .card2 {
+    grid-template-columns: 360px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}

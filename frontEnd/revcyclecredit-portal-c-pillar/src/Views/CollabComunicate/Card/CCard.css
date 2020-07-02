@@ -1,0 +1,170 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.Ccard {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 100px 90px;
+  grid-template-areas: "text" "title" "stats";
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(196, 87, 68);
+  color: rgb(15, 40, 180);
+  background: rgba(196, 98, 6, 0.418);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.CcardTitle {
+  grid-area: title;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding-left: 50px;
+}
+
+
+.CcardStats {
+  grid-area: stats;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  padding-left: 100px;
+  font-size: 12px;
+  overflow: hidden;
+  text-align: left;
+  /* background: rgb(255, 7, 110); */
+  background: white;
+}
+
+.CcardText {
+  font-family: Verdana, Geneva, sans-serif;
+  grid-area: text;
+  margin: 10px;
+  padding-left: 500px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+.CcardText p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.CcardText h2 {
+  color: rgb(68, 114, 196);
+  font-size: 8px;
+  margin-top: 0px;
+  text-shadow: 25px 20px 15px rgba(189, 189, 189);
+  padding-left: 50px;
+}
+
+.Ccard:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.Ccard2 {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 100px 90px;
+  grid-template-areas: "text" "title" "stats";
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(112, 48, 160);
+  color: rgb(112, 48, 160);
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+.CcardText2 {
+  font-family: Verdana, Geneva, sans-serif;
+  grid-area: text;
+  margin: 10px;
+}
+.CcardText2 .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+.CcardText2 p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.CcardText2 h2 {
+  color: rgb(112, 48, 160);
+  font-size: 160px;
+  margin-top: 0px;
+  text-shadow: 25px 20px 15px rgba(189, 189, 189);
+}
+.Ccard2:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+@media screen and (min-width: 1700px) {
+  .Ccard {
+    grid-template-columns: 230px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .Ccard2 {
+    grid-template-columns: 230px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 1776px) {
+  .Ccard {
+    grid-template-columns: 245px;
+    grid-template-rows: 100px 90px ;
+  }
+  .Ccard2 {
+    grid-template-columns: 245px;
+    grid-template-rows: 100px 90px ;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .Ccard {
+    grid-template-columns: 260px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .Ccard2 {
+    grid-template-columns: 260px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .Ccard {
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .Ccard2 {
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  .Ccard {
+    grid-template-columns: 360px;
+    grid-template-rows: 190px 90px 160px;
+  }
+  .Ccard2 {
+    grid-template-columns: 360px;
+    grid-template-rows: 190px 90px 160px;
+  }
+}

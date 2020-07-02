@@ -1,0 +1,102 @@
+.mainBody {
+    margin-top: -1px;
+   /* margin-left: 5px;*/
+}
+
+.h3 {  
+    padding: 1px 900px 1px 5px;
+    /*border: 1px dotted bisque;*/
+    font-size: large;
+    color: #008080;
+   /* color: #4F97A3; height: 50px;
+    width: 4200px; padding: 2px 950px 15px 5px;*/
+    font-weight: 600;
+    /*height: 800px;*/
+}
+
+.uploadVideo {
+    border: 1px solid orange;
+    height: 500px;
+    /*width:500px;*/
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 1px;
+}
+
+input {
+    width:100px;
+}
+
+.dropzone{
+  /* flex: 1;
+  display: flex; */
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 2px;
+  border-radius: 2;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+  font-weight: lighter;
+}
+
+.filess{
+  text-align: center;
+  padding: 20px;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+}
+.button{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 1px;
+  border-radius: 2;
+  border-color: lightskyblue;
+  border-style: solid;
+  background-color: #fafafa;
+  color: lightskyblue;
+  outline: none;
+  font-weight: lighter;
+}
+
+#saveForm{
+  position: relative;
+  left: 600px;
+}
+
+select { 
+  width: 100%; 
+  height: 38px; 
+  cursor: pointer; 
+  border:1px solid #ced4da; 
+  border-radius:3px; 
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 350;
+  
+} 
+
+select::after {
+  background-color: aqua;
+  color: black;
+}
+
+.requiredfield::before {
+  content: "*";
+  font-size:11;
+  vertical-align:super;
+  color:red
+  }
