@@ -37,7 +37,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-bootstrap-validation": "^0.1.11",
-    "react-dev-utils": "^5.0.2",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.1",
     "react-dropzone": "^10.2.2",
     "react-gsap": "^1.2.0",
